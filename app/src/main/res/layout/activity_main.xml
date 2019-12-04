@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:text="Sum"
+        android:id="@+id/btnsum"
+        />
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:text="Area of Circle"
+        android:id="@+id/btncircle"
+        />
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:text="Reverse a num"
+        android:id="@+id/btnreverseno"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:text="Palindrome"
+            android:id="@+id/btnpalidrome"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:text="Automophic no"
+            android:id="@+id/btnautomatic"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:text="Reverse a String"
+            android:id="@+id/btna"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="518dp"
+        android:id="@+id/fragmentcontainer"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        />
+</LinearLayout>
